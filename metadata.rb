@@ -4,7 +4,7 @@ maintainer_email 'fred.thompson@buildempire.co.uk'
 license          'Apache 2.0'
 description      'The JetBrains Hub site.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.0.10'
+version          '0.1.0'
 
 recipe 'cookbook_hub', 'The JetBrains Hub site.'
 
@@ -12,6 +12,6 @@ recipe 'cookbook_hub', 'The JetBrains Hub site.'
   supports os
 end
 
-%w{build-essential appbox java}.each do |cb|
+%w{build-essential java}.each do |cb|
   depends cb
 end
