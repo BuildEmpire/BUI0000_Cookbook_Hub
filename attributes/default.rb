@@ -1,5 +1,3 @@
-default['java']['jdk_version'] = '8'
-
 default['cookbook_hub']['hub']['version'] = '2018.3.10920'
 default['cookbook_hub']['hub']['install_root_dir'] = '/opt/hub'
 default['cookbook_hub']['hub']['data_dir'] = '/root/.HubData'
