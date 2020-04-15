@@ -12,6 +12,6 @@ recipe 'cookbook_hub', 'The JetBrains Hub site.'
   supports os
 end
 
-%w{build-essential appbox java}.each do |cb|
+%w{build-essential java}.each do |cb|
   depends cb
 end
