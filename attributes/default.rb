@@ -7,4 +7,4 @@ default['cookbook_hub']['hub']['backup_dir'] = '/root/.HubBackup'
 default['cookbook_hub']['hub']['download_url'] = 'https://download.jetbrains.com/hub/hub-2018.3.10920.zip'
 default['cookbook_hub']['hub']['memory_options'] = '-Xmx1g'
 
-default['cookbook_youtrack']['systemd'] = true;
+default['cookbook_hub']['systemd'] = true;
